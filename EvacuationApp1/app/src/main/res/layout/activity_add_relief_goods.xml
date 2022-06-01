@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddReliefGoodsActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="GIVE RELIEF GOODS"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Evacuation Center Name"
+                app:startIconDrawable="@drawable/ic_baseline_name">
+
+                <AutoCompleteTextView
+                    android:id="@+id/edAddReliefGoodsEvacuationName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Food">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Number of Food Per Person">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsFoodPerPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Water">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsWater"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO32"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Number of Water Per Person">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsWaterPerPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Sponsor">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsSponsor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO122"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Date">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/evacueeMnameLO1223"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:hint="Meal For">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edAddReliefGoodsMealFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="Save"
+
+        android:background="@drawable/roundbtn2"/>
+
+</LinearLayout>
